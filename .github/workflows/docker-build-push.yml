@@ -32,4 +32,4 @@ jobs:
         run: docker build -t rafapaisley/refunds-api .
 
       - name: Push Docker image
-        run: docker push hkshitesh/demorefund 
+        run: docker push rafapaisley/refunds-api
